@@ -1,0 +1,3953 @@
+:host {
+
+  .gridsMain {
+    margin-top: -130px;
+    padding-top: 24px;
+    position: relative;
+    width: 95.2%
+  }
+
+  .gridsMain.no-offset {
+    margin-top: 0
+  }
+
+  .gridsMain.no-offset-video {
+    margin-top: 0;
+    padding-top: 0
+  }
+
+  .gridsMain.no-offset-video .colRight {
+    top: 60px
+  }
+
+  .gridsMain.no-offset-video .article-share {
+    top: 25px
+  }
+
+  .colLeft,
+  .colRight {
+    position: absolute;
+    top: 145px
+  }
+
+  .colLeft {
+    left: 2.4%;
+    width: 16.3%;
+    padding-top: 220px
+  }
+
+  .colLeft .carousel-block {
+    width: 100%
+  }
+
+  .colLeft .carousel-block.product .description {
+    height: auto
+  }
+
+  .colLeft .carousel-block.product .popUp {
+    margin-top: 10px
+  }
+
+  .colLeft h3,
+  .colLeft .h3 {
+    text-align: center
+  }
+
+  .colRight {
+    right: 2.4%;
+    width: 24.4%
+  }
+
+  .colRight .blockNews {
+    margin-left: 10%;
+    margin-top: 0;
+    width: 90%
+  }
+
+  .colRight .blockNews .articlePreviewBlock {
+    margin-bottom: 0
+  }
+
+  .colRight .blockNews .articlePreviewBlock .articlePreview.hrl {
+    margin-top: 8px
+  }
+
+  .colRight .blockNews.collection .articleBlock2 .title {
+    height: 60px
+  }
+
+  .colRight h3,
+  .colRight .h3 {
+    margin-bottom: 20px
+  }
+
+  .colRight .blockQuestion {
+    display: inline-block;
+    margin-top: 35px;
+    position: relative;
+    width: 118%;
+    left: 0;
+    right: -10%
+  }
+
+  .colRight .blockQuestion .button {
+    float: none;
+    height: 37px;
+    margin: 10px 2%;
+    width: 50%
+  }
+
+  .colRight .blockQuestion .question {
+    margin: 9%;
+    width: 82%
+  }
+
+  .colRight .blockQuestion .question .title {
+    color: rgba(0, 0, 0, 0.56);
+    padding-left: 15%
+  }
+
+  .colRight .blockQuestion .question .text {
+    font-size: 1.75rem;
+    padding-left: 15%;
+    padding-right: 4%;
+    height: auto;
+    overflow: visible
+  }
+
+  .colRight .blockQuestion .blockButton {
+    margin-left: 15%
+  }
+
+  .colRight .collection-teaser {
+    margin-left: 10%;
+    margin-bottom: 30px;
+    width: 90%;
+    position: relative
+  }
+
+  .colRight .collection-teaser .imageTeaser {
+    display: block;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative
+  }
+
+  .colRight .collection-teaser .imageTeaser img {
+    display: block;
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -khtml-transform: translateX(-50%);
+    transform: translateX(-50%)
+  }
+
+  .colRight .collection-teaser .teaser-frame {
+    background-color: #d4b26a;
+    border: 4px solid #d4b26b;
+    bottom: 20px;
+    left: 50%;
+    line-height: .9;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -khtml-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding: 6px 15px;
+    position: absolute;
+    text-align: center;
+    width: 90%
+  }
+
+  .colRight .collection-teaser .teaser-frame .title {
+    font-size: 1.5rem
+  }
+
+  .colRight .collection-teaser .teaser-frame .author {
+    color: #fff;
+    font-size: .9rem;
+    line-height: 1.5;
+    margin: 0;
+    font-style: normal;
+    padding-top: 0
+  }
+
+  .colRight .collection-teaser .teaser-frame .time {
+    font-size: 1.075rem;
+    line-height: 1.5
+  }
+
+  .colRight .collection-teaser .teaser-frame:hover {
+    background-color: #fff;
+    color: #d4b26b
+  }
+
+  .colRight .collection-teaser .teaser-frame:hover .author {
+    color: #000
+  }
+
+  .colRight .backstage-teaser {
+    margin-left: 8%;
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px
+  }
+
+  .colRight .backstage-teaser .imageTeaser {
+    display: block;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: relative
+  }
+
+  .colRight .backstage-teaser .imageTeaser img {
+    display: block;
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -khtml-transform: translateX(-50%);
+    transform: translateX(-50%)
+  }
+
+  .colRight .backstage-teaser .imageTeaser .teaser-button {
+    background-color: #d4b26b;
+    border: 4px solid #d4b26b;
+    text-align: center;
+    color: white;
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    width: 80%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    bottom: 20px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -khtml-transform: translateX(-50%);
+    transform: translateX(-50%)
+  }
+
+  .colRight .backstage-teaser .imageTeaser .teaser-button:hover {
+    background-color: #fff;
+    color: #d4b26b
+  }
+
+  .colRight #sideBarBlock.monolit-dossier {
+    padding-top: 4%;
+    background-color: #272727;
+    position: relative;
+    float: left;
+    width: 118%
+  }
+
+  .colRight #sideBarBlock.monolit-dossier .contentCol {
+    width: 100%
+  }
+
+  .colRight #sideBarBlock.monolit-dossier .contentCol .imgWrap img {
+    max-height: 237px;
+    max-width: 348px
+  }
+
+  .colRight .blockReserve {
+    width: 98%;
+    margin-left: 10%;
+    margin-top: 35px
+  }
+
+  .colRight .blockReserve a {
+    padding: 0 5%
+  }
+
+  .blockReserve {
+    display: inline-block
+  }
+
+  .blockReserve a {
+    line-height: 1
+  }
+
+  .blockReserve a:first-child {
+    margin-bottom: 12px
+  }
+
+  .blockReserve a p {
+    line-height: inherit
+  }
+
+  .blockReserve a p:first-child {
+    float: left;
+    height: inherit
+  }
+
+  .blockReserve a p:last-of-type {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+  }
+
+  .blockReserve a.helpline {
+    cursor: default
+  }
+
+  .blockReserve a.helpline p:first-child {
+    width: 7%;
+    margin-right: 5%;
+    background: url(/assets/img/reserve-button-helpline.png) no-repeat left center;
+    background-size: contain
+  }
+
+  .blockReserve a.helpline p span {
+    white-space: nowrap
+  }
+
+  .blockReserve a.reserve p:first-child {
+    width: 9%;
+    margin-right: 3%;
+    background: url(/assets/img/reserve-button.png) no-repeat left center;
+    background-size: contain
+  }
+
+  #expertBlock.article-version h2 {
+    padding-bottom: 22px;
+    padding-top: 40px
+  }
+
+  #expertBlock.article-version h2 .border {
+    padding-right: 60px
+  }
+
+  #expertBlock.article-version h2 .br {
+    display: block
+  }
+
+  #expertBlock.article-version .br {
+    font-size: .85em
+  }
+
+  #expertBlock.article-version .grids {
+    height: 496px;
+    display: block;
+    overflow: initial
+  }
+
+  #expertBlock.article-version .grids .col {
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    display: inline-block
+  }
+
+  #expertBlock.article-version .grids .col:first-child {
+    width: 37%;
+    padding-left: 2.5%
+  }
+
+  #expertBlock.article-version .grids .col:last-child {
+    width: 63%
+  }
+
+  #expertBlock.article-version .imgExpert {
+    top: 0;
+    right: -25%;
+    width: 66%;
+    min-height: 100%;
+    overflow: visible
+  }
+
+  #expertBlock.article-version .imgExpert img {
+    z-index: 1;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -khtml-transform: translateX(-50%);
+    transform: translateX(-50%)
+  }
+
+  #expertBlock.article-version .titleName {
+    padding-bottom: 10px;
+    font-size: 2.05em
+  }
+
+  #expertBlock.article-version .info {
+    padding-bottom: 35px
+  }
+
+  #expertBlock.article-version .titleName,
+  #expertBlock.article-version .info {
+    max-width: 60%
+  }
+
+  #expertBlock.article-version #adviceExperts {
+    background-color: #272727;
+    padding-left: 16%;
+    height: 100%
+  }
+
+  #expertBlock.article-version #adviceExperts .adviceCarousel {
+    padding-left: 5px
+  }
+
+  #expertBlock.article-version #adviceExperts .wide78 {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+  }
+
+  #expertBlock.article-version #adviceExperts .carousel-block {
+    width: 42%;
+    height: 336px;
+    margin: 0
+  }
+
+  #expertBlock.article-version #adviceExperts .advice:last-of-type .carousel-block {
+    margin-left: 5%
+  }
+
+  .blockNews {
+    margin-top: 20px
+  }
+
+  .blockNews .articleBlock2 {
+    margin-bottom: 10px;
+    width: 100%
+  }
+
+  .blockNews .articleBlock2 img {
+    max-width: 87px
+  }
+
+  .blockNews .articleBlock2 .tableCell {
+    width: 33%
+  }
+
+  .blockNews .articleBlock2 .title {
+    font-size: 1.063rem;
+    height: 50px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 5px 0 0
+  }
+
+  .blockNews .articleBlock2 .typeInfo {
+    font-size: .688rem
+  }
+
+  .blockNews .articleBlock2 .infoBlock {
+    vertical-align: middle
+  }
+
+  .colCenter {
+    width: 57.35%;
+    padding-left: 17%;
+    padding-right: 25.65%
+  }
+
+  .colCenter h1 {
+    font-size: 3.626rem;
+    line-height: 1.164;
+    margin: 10px 2% 30px 2%;
+    text-align: center
+  }
+
+  .colCenter .blockWhite {
+    z-index: 2;
+    position: relative;
+    height: 100%;
+    width: 91.06%
+  }
+
+  .colCenter .info {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: .688rem;
+    padding: 10px 10%;
+    position: relative;
+    width: 80%;
+    text-align: center;
+    line-height: .88rem
+  }
+
+  .colCenter .tagDate {
+    padding-top: 35px;
+    text-align: center
+  }
+
+  .colCenter p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.333;
+    padding: 12px 0
+  }
+
+  .colCenter .article-share {
+    text-align: center;
+    width: 30%;
+    left: -30%;
+    position: absolute;
+    top: 130px
+  }
+
+  .paddingCenter {
+    padding-right: 4.47%;
+    padding-left: 4.47%
+  }
+
+  .epigraph {
+    color: #1b1c20;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.953rem;
+    font-style: italic;
+    font-weight: 700;
+    margin: 56px 10% 70px 10%;
+    text-align: center;
+    width: 80%
+  }
+
+  .epigraph span {
+    display: block;
+    color: #16171b;
+    font-size: .925rem;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1.1;
+    padding-top: 10px
+  }
+
+  .previewShp .mainPadding2.paddingBottom4 {
+    padding-bottom: 0
+  }
+
+  @media screen and (max-width: 1024px) {
+    .previewShp .mainPadding2.paddingBottom4 {
+      padding-top: 4rem
+    }
+  }
+
+  .previewShp .articlePreviewBlock {
+    margin-bottom: 0
+  }
+
+  .previewShp .articlePreviewBlock .articleDescription p.articleTitle {
+    font-weight: 400
+  }
+
+  .portrait .left-portrait {
+    width: 50%;
+    float: left;
+    position: relative
+  }
+
+  .portrait .left-portrait .offset-photo {
+    width: 100%
+  }
+
+  .portrait .left-portrait .offset-photo img {
+    width: 105%;
+    display: block;
+    margin-left: -5%
+  }
+
+  .portrait .left-portrait .offset-photo .carusel .cover {
+    width: 105%;
+    margin-left: -5%
+  }
+
+  .portrait .left-portrait .info {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 5%;
+    position: relative;
+    width: 80%;
+    text-align: left;
+    line-height: .88rem;
+    background-color: transparent;
+    color: rgba(27, 28, 32, 0.5);
+    font-size: .75rem
+  }
+
+  .portrait .left-portrait-bottom {
+    width: 50%;
+    float: left;
+    position: relative
+  }
+
+  @media screen and (min-width: 1024px) {
+    .portrait .left-portrait-bottom {
+      padding-bottom: 70px
+    }
+  }
+
+  .portrait .left-portrait-bottom .carousel-block.product {
+    width: 95%;
+    margin-left: 5%
+  }
+
+  .portrait .left-portrait-bottom .carousel-block.product .title {
+    line-height: 1.3;
+    width: 68%;
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+  }
+
+  .portrait .left-portrait-bottom .carousel-block.product .imgLeft {
+    width: 26%;
+    margin-left: 0;
+    float: left;
+    min-height: 113px
+  }
+
+  .portrait .left-portrait-bottom .carousel-block.product .description {
+    float: right;
+    width: 68%;
+    text-align: left;
+    margin-top: 16px;
+    height: auto;
+    line-height: 15px
+  }
+
+  .portrait .left-portrait-bottom .carousel-block.product .popUp {
+    float: left;
+    width: 20%;
+    margin-left: 6%;
+    margin-top: 15px
+  }
+
+  .portrait .left-portrait-bottom .bannerBlock {
+    width: 95%;
+    margin-left: 5%
+  }
+
+  .portrait .left-portrait-bottom .blockReserve {
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 20px
+  }
+
+  .portrait .left-portrait-bottom .blockReserve a {
+    width: 51%;
+    padding: 0 3%
+  }
+
+  .portrait .right-portrait {
+    line-height: 20px;
+    width: 50%;
+    float: right;
+    position: relative
+  }
+
+  .portrait .right-portrait .colCenter {
+    width: 90%;
+    padding: 0
+  }
+
+  .portrait.colRight {
+    position: relative;
+    width: 100%;
+    top: auto;
+    right: auto
+  }
+
+  .portrait.colRight .blockNews {
+    width: 100%;
+    margin: 0
+  }
+
+  .portrait.colRight .blockNews .articleBlock2 {
+    width: 32%;
+    margin-right: 1%;
+    float: left
+  }
+
+  .portrait.colRight .blockNews .articleBlock2 .blockSocial {
+    display: none
+  }
+
+  .portrait.colRight .blockNews .articleBlock2 .tableCell {
+    width: 16%
+  }
+
+  .portrait.colRight .blockNews .articleBlock2 .tableCell img {
+    max-width: 77px
+  }
+
+  .portrait.colRight .blockNews .h2 {
+    margin-bottom: 35px
+  }
+
+  .portrait .article-share {
+    width: 10%;
+    left: auto;
+    right: -15%;
+    position: absolute;
+    top: 0
+  }
+
+  .portrait .article-share .hide-desc {
+    display: none
+  }
+
+  .portrait .article-share .grids .col,
+  .portrait .article-share .blockSocial.grids .col:last-child {
+    float: none;
+    text-align: left
+  }
+
+  .portrait .article-share .blockSocial.grids {
+    padding-top: 0
+  }
+
+  .article-dossier {
+    background-color: #272727;
+    position: relative
+  }
+
+  .article-dossier .article-dossier-wrap {
+    margin: 45px auto 80px;
+    width: 88%
+  }
+
+  .article-dossier .article-dossier-wrap .contentCol {
+    float: left
+  }
+
+  .article-dossier .article-dossier-wrap .contentCol:nth-of-type(3n+2) {
+    margin: 0 2%
+  }
+
+  .article-dossier h2 {
+    color: #fff;
+    padding-left: 10px;
+    margin-bottom: 50px
+  }
+
+  .mini-expert {
+    font-family: 'Playfair Display', serif;
+    height: 120px;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 25px
+  }
+
+  .mini-expert .mini-expert-title {
+    position: absolute;
+    width: 57%;
+    margin-left: 43%;
+    bottom: 35%
+  }
+
+  .mini-expert .pre-title {
+    font-size: 1rem
+  }
+
+  .mini-expert .title-name {
+    font-size: 1.5rem
+  }
+
+  .mini-expert .img-expert {
+    z-index: 1;
+    position: absolute;
+    width: 44%;
+    top: -20%;
+    height: 120%;
+    overflow: hidden
+  }
+
+  .mini-expert .img-expert img {
+    width: 100%;
+    display: block;
+    margin-left: -5px
+  }
+
+  .mini-expert .button-mini {
+    display: block;
+    width: 100%;
+    position: absolute;
+    background-color: #d4b26b;
+    color: white;
+    padding: 10px 9px 10px 44%;
+    box-sizing: border-box;
+    bottom: 0;
+    text-align: center;
+    font-size: .8rem
+  }
+
+  #sideBarBlock {
+    background-color: #272727
+  }
+
+  #sideBarBlock .article-dossier-wrap .contentCol {
+    width: 32%
+  }
+
+  .colCenter .content {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.333
+  }
+
+  .colCenter .content p {
+    padding: 12px 0
+  }
+
+  .colCenter .content p:first-of-type:first-letter {
+    display: block;
+    float: left;
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5rem;
+    padding: 0 10px;
+    height: 56px;
+    line-height: 56px
+  }
+
+  .colCenter .content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.869rem;
+    font-weight: 400;
+    line-height: 1.1;
+    padding: 12px 0;
+    margin: 0
+  }
+
+  .colCenter .content h3 {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 12px 0;
+    margin: 0
+  }
+
+  .colCenter .content strong,
+  .colCenter .content b {
+    font-weight: 700
+  }
+
+  .colCenter .content em {
+    font-style: italic
+  }
+
+  .colCenter .content u {
+    text-decoration: underline
+  }
+
+  .colCenter .content a {
+    position: relative;
+    display: inline-block;
+    text-decoration: underline
+  }
+
+  .colCenter .content a:hover {
+    text-decoration: none
+  }
+
+  .colCenter .content a:hover:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: -3px;
+    left: 0;
+    background: url(/assets/img/mail_back.png) repeat transparent
+  }
+
+  .colCenter .content .fotoBlock img {
+    width: 100%
+  }
+
+  .colCenter .content .fotoBlock .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin: 0 auto
+  }
+
+  .colCenter .content .fotoBlock .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+  }
+
+  .epigraph {
+    color: #1b1c20;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.953rem;
+    font-style: italic;
+    font-weight: 700;
+    margin: 56px 10% 70px 10%;
+    text-align: center;
+    width: 80%
+  }
+
+  .epigraph .author {
+    display: block;
+    color: #16171b;
+    font-size: .925rem;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1.1;
+    padding-top: 10px
+  }
+
+  .author {
+    margin-top: -75px;
+    font-family: 'Playfair Display', serif;
+    display: block;
+    color: #16171b;
+    font-size: .925rem;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.1;
+    padding-top: 10px
+  }
+
+  .colRight .blockQuestion .button {
+    margin: 25px 2%
+  }
+
+  .colRight .blockQuestion.voted .button .stats {
+    bottom: -30px
+  }
+
+
+  @media(max-width: 1280px) {
+    .blockReserve .buttonRed {
+      font-size: 1.1rem
+    }
+  }
+
+  @media(max-width: 1280px) {
+    #expertBlock.article-version .titleName,
+    #expertBlock.article-version .info {
+      max-width: 55%
+    }
+  }
+
+  @media(max-width: 1180px) {
+    #expertBlock.article-version #adviceExperts {
+      padding-left: 21%
+    }
+    #expertBlock.article-version .br {
+      font-size: .78em
+    }
+    #expertBlock.article-version .titleName,
+    #expertBlock.article-version .info {
+      max-width: 50%
+    }
+  }
+
+  @media(min-width: 1025px) {
+    .colRight .collection-teaser .imageTeaser .teaser-frame {
+      padding: 6px 5px
+    }
+  }
+
+  @media(max-width: 1024px) {
+    .titleTag.marginTop3 {
+      margin-top: 0
+    }
+    .tag {
+      margin: 0 0 20px
+    }
+    #expertBlock.article-version .grids .col:first-child {
+      padding-top: 3%
+    }
+    #expertBlock.article-version .titleName {
+      font-size: 1.86rem
+    }
+    #expertBlock.article-version #adviceExperts .carousel-block {
+      height: 280px
+    }
+    #expertBlock.article-version #adviceExperts #adviceExperts {
+      padding-left: 16%
+    }
+    #expertBlock.article-version #adviceExperts .br {
+      font-size: .85em
+    }
+    #expertBlock.article-version #adviceExperts .titleName,
+    #expertBlock.article-version #adviceExperts .info {
+      max-width: 55%
+    }
+    .colRight #sideBarBlock.monolit-dossier {
+      width: 110%
+    }
+    .colRight .blockQuestion {
+      width: 110%
+    }
+    .colRight .blockQuestion .question .title {
+      font-size: 1.874rem;
+      padding-bottom: 10px;
+      padding-left: 10%;
+      padding-top: 20px
+    }
+    .colRight .blockQuestion .question .text {
+      font-size: 1.252rem;
+      line-height: 1.1;
+      padding-left: 10%
+    }
+    .colRight .blockQuestion .button {
+      float: left;
+      margin: 15px 2% 5px 0;
+      width: 46%
+    }
+    .colRight .blockQuestion .button span {
+      font-size: .563rem
+    }
+    .colRight .blockQuestion .blockButton {
+      margin-left: 10%;
+      margin-right: 0
+    }
+    .colRight .blockQuestion .buttonBlack {
+      height: 40px;
+      line-height: 40px;
+      width: 123px
+    }
+    .colRight .blockQuestion .buttonBlack:hover {
+      line-height: 36px
+    }
+    .colRight .blockReserve {
+      width: 94%
+    }
+    .colLeft,
+    .colRight {
+      top: 135px
+    }
+    .colCenter h1 {
+      font-size: 2.875rem;
+      margin-bottom: 15px
+    }
+    .colCenter .info {
+      font-size: .625rem
+    }
+    .colCenter .tagDate {
+      font-size: 1.059rem;
+      padding-top: 25px
+    }
+    .gridsMain {
+      margin-top: -106px
+    }
+    .colCenter p {
+      font-size: .875rem
+    }
+    .colCenter .firstBlock p:first-of-type:first-letter {
+      font-size: 3.632rem;
+      margin-top: -5px
+    }
+    .colCenter .article-share {
+      top: 80px
+    }
+    .epigraph {
+      font-size: 1.563rem;
+      margin-bottom: 50px
+    }
+    .epigraph span {
+      font-size: .75rem
+    }
+    .fotoBlock {
+      margin-top: 20px
+    }
+    .fotoBlock .text {
+      padding: 2px 2% 0 0
+    }
+    .blockNews .articleBlock2 .typeInfo {
+      font-size: .563rem
+    }
+    .blockNews .articleBlock2 .title {
+      font-size: .813rem;
+      height: 32px;
+      line-height: 15px
+    }
+    #expertBlock.article-version .grids {
+      height: 390px
+    }
+    .author {
+      margin-top: -60px
+    }
+    .blockReserve .buttonRed {
+      font-size: .76rem;
+      height: 60px
+    }
+    .carousel-block.product .title,
+    .portrait .left-portrait-bottom .carousel-block.product .title {
+      font-size: 1.3rem
+    }
+    .carousel-block.product img,
+    .portrait .left-portrait-bottom .carousel-block.product img {
+      max-width: 100%
+    }
+
+
+  }
+
+  @media only screen and (min-width: 961px) and (max-width: 1140px) {
+    .colRight .collection-teaser .imageTeaser .teaser-frame {
+      padding: 6px 5px
+    }
+    .colRight .collection-teaser .imageTeaser .teaser-frame .title {
+      font-size: 1.25rem
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 960px) {
+    .tile .fontAwesome span {
+      font-size: 14px;
+      line-height: 20px
+    }
+    .tile:not(.pinTile) .fontAwesome {
+      bottom: .15em
+    }
+    .colRight .collection-teaser .imageTeaser .teaser-frame {
+      padding: 6px 10px
+    }
+    .colRight .collection-teaser .imageTeaser .teaser-frame .title {
+      font-size: 1.125rem
+    }
+    .colRight .collection-teaser .imageTeaser .teaser-frame .author {
+      font-size: .875rem
+    }
+    .colRight .collection-teaser .imageTeaser .teaser-frame .time {
+      font-size: .9rem
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    #expertBlock.article-version h2 .border {
+      padding-right: 40px
+    }
+    #expertBlock.article-version .br {
+      font-size: .7em
+    }
+    #expertBlock.article-version .titleName {
+      font-size: 1.6rem
+    }
+  }
+
+  @media(max-width: 810px) {
+    #expertBlock.article-version .br {
+      font-size: .6em
+    }
+  }
+
+  @media(max-width: 767px) {
+    .author {
+      margin-top: -40px
+    }
+    .gridsMain {
+      margin-top: 0;
+      padding-top: 0
+    }
+    .colCenter {
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%
+    }
+    .colCenter .info {
+      background-color: transparent;
+      color: rgba(27, 28, 32, 0.5);
+      font-size: .75rem
+    }
+    .colCenter h1 {
+      font-size: 2.813rem
+    }
+    .colCenter .table {
+      vertical-align: middle;
+      width: 100%;
+      padding-top: 25px;
+      padding-bottom: 20px
+    }
+    .colCenter .h3 {
+      display: table-cell;
+      padding-right: 30px;
+      vertical-align: middle
+    }
+    .colCenter .blockSocial {
+      display: table-cell;
+      vertical-align: middle;
+      width: 70%
+    }
+    .colCenter .blockSocial .iconContainer {
+      display: inline-block;
+      margin-right: 10%
+    }
+    .colCenter .blockSocial .iconContainer .number {
+      font-family: 'Lato', sans-serif;
+      font-size: .619rem;
+      margin-top: 5px
+    }
+    .colCenter .blockSocial .fontAwesome {
+      font-size: 20px
+    }
+    .colCenter .blockSocial .fontAwesome span {
+      text-align: center
+    }
+    .colCenter p {
+      font-size: 1rem
+    }
+    .colCenter .firstBlock p:first-of-type:first-letter {
+      font-size: 3.632rem
+    }
+    .colCenter .article-share {
+      position: relative;
+      top: 0;
+      width: auto;
+      left: 0
+    }
+    .colCenter .article-share .h3 {
+      display: inline-block;
+      float: left;
+      padding-top: 12px
+    }
+    .colCenter .article-share .blockSocial {
+      display: inline-block;
+      float: left;
+      width: auto;
+      padding: 0 0 15px 0
+    }
+    .colCenter .article-share .blockSocial.grids .col {
+      width: auto;
+      padding-left: 0
+    }
+    .colCenter .article-share .blockSocial.grids .col:last-child {
+      float: left;
+      text-align: left
+    }
+    .colCenter .article-share .blockSocial .iconContainer {
+      margin-right: 15px;
+      padding-top: 16px
+    }
+    .colLeft,
+    .colRight {
+      position: relative;
+      top: 0;
+      width: 100%
+    }
+    .colLeft {
+      padding-top: 0;
+      left: 0
+    }
+    .colLeft .carousel-block {
+      width: 49%;
+      float: left
+    }
+    .colLeft .bannerBlock.dispTablet {
+      width: 49%;
+      float: right
+    }
+    .colRight {
+      clear: both;
+      right: 0
+    }
+    .colRight .blockNews {
+      margin-left: 0;
+      width: 32%;
+      float: left
+    }
+    .colRight .blockNews.collection {
+      width: 35%
+    }
+    .colRight #sideBarBlock.monolit-dossier {
+      width: 55%
+    }
+    .colRight .blockQuestion {
+      float: right;
+      margin-right: -5%;
+      margin-top: 0;
+      width: 54%
+    }
+    .colRight .blockQuestion .blockButton {
+      margin-left: 8%;
+      margin-right: 8%
+    }
+    .colRight .blockQuestion .question {
+      margin: 5%;
+      width: 90%
+    }
+    .colRight .blockQuestion .question .text {
+      font-size: 1rem
+    }
+    .colRight .blockQuestion .button {
+      border: 1px solid #000;
+      box-sizing: border-box;
+      margin: 20px 2% 5px 2%
+    }
+    .colRight .blockQuestion .button span {
+      font-size: .625rem
+    }
+    .colRight .blockQuestion .buttonBlack {
+      float: none;
+      margin-left: 8%;
+      width: 82%;
+      margin-bottom: 15px
+    }
+    .colRight .h3 {
+      font-size: 1.875rem;
+      margin-left: 0
+    }
+    .colRight .collection-teaser {
+      width: 100%;
+      margin: 0 0 20px
+    }
+    .colRight .collection-teaser .imageTeaser {
+      height: 250px
+    }
+    .colRight .collection-teaser .imageTeaser img {
+      height: initial;
+      width: 100%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      -khtml-transform: translateY(-50%);
+      transform: translateY(-50%);
+      left: 0;
+      top: 50%
+    }
+    .colRight .collection-teaser .teaser-frame {
+      width: auto
+    }
+    .colRight .backstage-teaser {
+      margin: 0 0 20px 0;
+      width: 60%;
+      float: right
+    }
+    .colRight .backstage-teaser .imageTeaser {
+      height: 280px
+    }
+    .colRight .backstage-teaser .imageTeaser img {
+      height: initial;
+      width: 100%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      -khtml-transform: translateY(-50%);
+      transform: translateY(-50%);
+      left: 0;
+      top: 85%
+    }
+    .colRight .backstage-teaser .imageTeaser .teaser-button {
+      padding: 12px;
+      bottom: 50px
+    }
+    .colRight .blockReserve {
+      margin-left: 0;
+      width: 100%
+    }
+    .colRight .blockReserve a {
+      padding: 0 3%
+    }
+    .epigraph {
+      font-size: 1.875rem;
+      margin: 30px 10%
+    }
+    .epigraph span {
+      font-size: .875rem
+    }
+    .carousel-block.product {
+      border: 5px solid #e0e0e0;
+      margin-top: 20px;
+      padding-bottom: 18px;
+      position: relative;
+      min-height: 160px;
+      text-align: left
+    }
+    .carousel-block.product .imgLeft {
+      position: absolute;
+      top: 20px;
+      width: 100%
+    }
+    .carousel-block.product .imgLeft img {
+      max-width: 27%;
+      left: 0;
+      margin-left: 4%
+    }
+    .carousel-block.product .title {
+      margin-left: 34%;
+      margin-top: 10px;
+      padding-left: 0
+    }
+    .carousel-block.product .description {
+      font-size: .768rem;
+      height: auto;
+      margin-bottom: 8px;
+      margin-left: 34%;
+      margin-top: 5px
+    }
+    .carousel-block.product .popUp {
+      height: 44px;
+      margin-left: 34%;
+      margin-top: 10px;
+      width: 50%
+    }
+    .carousel-block.product .popUp p {
+      font-size: 1.152rem;
+      line-height: 44px
+    }
+    .carousel-block.product .popUp:hover p {
+      line-height: 40px
+    }
+    .blockNews .articleBlock2 .tableCell {
+      width: 20%
+    }
+    .blockNews .articleBlock2 .typeInfo {
+      font-size: .698rem
+    }
+    .blockNews .articleBlock2 .title {
+      font-size: .887rem
+    }
+    .portrait .left-portrait {
+      width: 100%
+    }
+    .portrait .left-portrait .offset-photo img {
+      width: 106%;
+      display: block;
+      margin-left: -3%
+    }
+    .portrait .right-portrait {
+      width: 100%
+    }
+    .portrait .right-portrait .colCenter {
+      width: 100%
+    }
+    .portrait .left-portrait-bottom {
+      width: 100%
+    }
+    .portrait .left-portrait-bottom .carousel-block.product {
+      width: 90%;
+      margin: 20px auto 0
+    }
+    .portrait .left-portrait-bottom .description {
+      margin-left: 0
+    }
+    .portrait .left-portrait-bottom .imgLeft {
+      position: relative;
+      top: 0
+    }
+    .portrait .left-portrait-bottom .imgLeft img {
+      max-width: 80%;
+      left: auto;
+      margin-left: 0
+    }
+    .portrait .left-portrait-bottom .bannerBlock {
+      width: 90%;
+      margin: 20px auto
+    }
+    .portrait .left-portrait-bottom .blockReserve {
+      width: 90%;
+      margin: 20px 5% 0
+    }
+    .portrait .left-portrait-bottom .blockReserve a {
+      width: 43%
+    }
+    .portrait.colRight .blockNews {
+      width: 100%
+    }
+    .portrait .article-share .grids .col,
+    .portrait .article-share .blockSocial.grids .col:last-child {
+      float: left
+    }
+    .article-dossier .article-dossier-wrap .contentCol {
+      width: 50%
+    }
+    #expertBlock.article-version .grids {
+      height: 390px
+    }
+    #expertBlock.article-version #adviceExperts .carousel-block {
+      height: 260px
+    }
+    .mini-expert {
+      height: 200px
+    }
+    .mini-expert .img-expert {
+      right: 0;
+      top: -5%;
+      height: 105%;
+      max-width: 150px
+    }
+    .mini-expert .mini-expert-title {
+      margin-left: 5%;
+      top: 0
+    }
+    .mini-expert .pre-title {
+      margin-top: 15px;
+      float: left;
+      font-size: 1.4rem
+    }
+    .mini-expert .title-name {
+      float: left;
+      font-size: 1.8rem;
+      clear: both
+    }
+    .mini-expert .button-mini {
+      padding: 15px;
+      font-size: 1.1rem;
+      z-index: 2;
+      bottom: 10%;
+      width: 90%;
+      left: 5%;
+      right: 5%
+    }
+    .blockReserve a {
+      width: 43%;
+      float: left
+    }
+    .blockReserve a:first-child {
+      margin-right: 2%;
+      margin-bottom: 0
+    }
+    .blockReserve .buttonRed {
+      font-size: 1.1rem
+    }
+    #expertBlock.article-version .imgExpert img {
+      height: 93%;
+      bottom: 0;
+      left: 52%
+    }
+  }
+
+  @media only screen and (max-width: 710px) {
+    #expertBlock.article-version .imgExpert img {
+      height: 90%
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    #expertBlock.article-version h2 {
+      padding-top: 20px
+    }
+    #expertBlock.article-version #adviceExperts {
+      height: 90%
+    }
+    #expertBlock.article-version .imgExpert img {
+      height: 90%;
+      bottom: 10%;
+      left: 52%
+    }
+  }
+
+  @media only screen and (min-width: 641px) and (max-width: 767px) {
+
+    .carousel-block.product .title,
+    .carousel-block.product .description {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap
+    }
+    .full-width .carousel-block.product {
+      width: 100%
+    }
+    .full-width .carousel-block.product .imgLeft {
+      height: 75%
+    }
+    .full-width .carousel-block.product .imgLeft img {
+      max-width: inherit;
+      width: initial;
+      margin-left: 8%;
+      height: 100%
+    }
+    .full-width .bannerBlock {
+      margin-left: 0;
+      width: 100%;
+      height: auto
+    }
+    .full-width .bannerBlock img {
+      width: 100%;
+      position: relative;
+      left: auto;
+      -webkit-transform: initial;
+      -moz-transform: initial;
+      -ms-transform: initial;
+      -o-transform: initial;
+      -khtml-transform: initial;
+      transform: initial
+    }
+    .colRight {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-flow: row wrap
+    }
+    .colRight .mini-expert {
+      -moz-flex: 100%;
+      -webkit-flex: 100%;
+      -ms-flex: 100%;
+      flex: 100%
+    }
+    .colRight .backstage-teaser {
+      -moz-flex: 60%;
+      -webkit-flex: 60%;
+      -ms-flex: 60%;
+      flex: 60%
+    }
+    .colRight .blockNews.collection {
+      -moz-flex: 35%;
+      -webkit-flex: 35%;
+      -ms-flex: 35%;
+      flex: 35%
+    }
+    .colRight .blockQuestion {
+      height: 100%
+    }
+    .colRight .blockReserve {
+      order: 1
+    }
+    .colRight .blockNews.collection + .blockReserve {
+      margin-bottom: 30px
+    }
+  }
+
+  @media only screen and (min-width: 641px) and (max-width: 767px) {
+
+    .carousel-block.product .title,
+    .carousel-block.product .description {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap
+    }
+    .full-width .carousel-block.product {
+      width: 100%
+    }
+    .full-width .carousel-block.product .imgLeft {
+      height: 75%
+    }
+    .full-width .carousel-block.product .imgLeft img {
+      max-width: inherit;
+      width: initial;
+      margin-left: 8%;
+      height: 100%
+    }
+    .full-width .bannerBlock {
+      margin-left: 0;
+      width: 100%;
+      height: auto
+    }
+    .full-width .bannerBlock img {
+      width: 100%;
+      position: relative;
+      left: auto;
+      -webkit-transform: initial;
+      -moz-transform: initial;
+      -ms-transform: initial;
+      -o-transform: initial;
+      -khtml-transform: initial;
+      transform: initial
+    }
+    .colRight {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-flow: row wrap
+    }
+    .colRight .mini-expert {
+      -moz-flex: 100%;
+      -webkit-flex: 100%;
+      -ms-flex: 100%;
+      flex: 100%
+    }
+    .colRight .backstage-teaser {
+      -moz-flex: 60%;
+      -webkit-flex: 60%;
+      -ms-flex: 60%;
+      flex: 60%
+    }
+    .colRight .blockNews.collection {
+      -moz-flex: 35%;
+      -webkit-flex: 35%;
+      -ms-flex: 35%;
+      flex: 35%
+    }
+    .colRight .blockQuestion {
+      height: 100%
+    }
+    .colRight .blockReserve {
+      order: 1
+    }
+    .colRight .blockNews.collection + .blockReserve {
+      margin-bottom: 30px
+    }
+  }
+
+  @media only screen and (min-width: 641px) and (max-width: 767px) {
+
+    .carousel-block.product .title,
+    .carousel-block.product .description {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap
+    }
+    .full-width .carousel-block.product {
+      width: 100%
+    }
+    .full-width .carousel-block.product .imgLeft {
+      height: 75%
+    }
+    .full-width .carousel-block.product .imgLeft img {
+      max-width: inherit;
+      width: initial;
+      margin-left: 8%;
+      height: 100%
+    }
+    .full-width .bannerBlock {
+      margin-left: 0;
+      width: 100%;
+      height: auto
+    }
+    .full-width .bannerBlock img {
+      width: 100%;
+      position: relative;
+      left: auto;
+      -webkit-transform: initial;
+      -moz-transform: initial;
+      -ms-transform: initial;
+      -o-transform: initial;
+      -khtml-transform: initial;
+      transform: initial
+    }
+    .colRight {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-flow: row wrap
+    }
+    .colRight .mini-expert {
+      -moz-flex: 100%;
+      -webkit-flex: 100%;
+      -ms-flex: 100%;
+      flex: 100%
+    }
+    .colRight .backstage-teaser {
+      -moz-flex: 60%;
+      -webkit-flex: 60%;
+      -ms-flex: 60%;
+      flex: 60%
+    }
+    .colRight .blockNews.collection {
+      -moz-flex: 35%;
+      -webkit-flex: 35%;
+      -ms-flex: 35%;
+      flex: 35%
+    }
+    .colRight .blockQuestion {
+      height: 100%
+    }
+    .colRight .blockReserve {
+      order: 1
+    }
+    .colRight .blockNews.collection + .blockReserve {
+      margin-bottom: 30px
+    }
+  }
+
+  @media only screen and (min-width: 641px) and (max-width: 767px) {
+
+    .carousel-block.product .title,
+    .carousel-block.product .description {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap
+    }
+    .full-width .carousel-block.product {
+      width: 100%
+    }
+    .full-width .carousel-block.product .imgLeft {
+      height: 75%
+    }
+    .full-width .carousel-block.product .imgLeft img {
+      max-width: inherit;
+      width: initial;
+      margin-left: 8%;
+      height: 100%
+    }
+    .full-width .bannerBlock {
+      margin-left: 0;
+      width: 100%;
+      height: auto
+    }
+    .full-width .bannerBlock img {
+      width: 100%;
+      position: relative;
+      left: auto;
+      -webkit-transform: initial;
+      -moz-transform: initial;
+      -ms-transform: initial;
+      -o-transform: initial;
+      -khtml-transform: initial;
+      transform: initial
+    }
+    .colRight {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-flow: row wrap
+    }
+    .colRight .mini-expert {
+      -moz-flex: 100%;
+      -webkit-flex: 100%;
+      -ms-flex: 100%;
+      flex: 100%
+    }
+    .colRight .backstage-teaser {
+      -moz-flex: 60%;
+      -webkit-flex: 60%;
+      -ms-flex: 60%;
+      flex: 60%
+    }
+    .colRight .blockNews.collection {
+      -moz-flex: 35%;
+      -webkit-flex: 35%;
+      -ms-flex: 35%;
+      flex: 35%
+    }
+    .colRight .blockQuestion {
+      height: 100%
+    }
+    .colRight .blockReserve {
+      order: 1
+    }
+    .colRight .blockNews.collection + .blockReserve {
+      margin-bottom: 30px
+    }
+  }
+
+  @media only screen and (min-width: 641px) and (max-width: 767px) {
+
+    .carousel-block.product .title,
+    .carousel-block.product .description {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap
+    }
+    .full-width .carousel-block.product {
+      width: 100%
+    }
+    .full-width .carousel-block.product .imgLeft {
+      height: 75%
+    }
+    .full-width .carousel-block.product .imgLeft img {
+      max-width: inherit;
+      width: initial;
+      margin-left: 8%;
+      height: 100%
+    }
+    .full-width .bannerBlock {
+      margin-left: 0;
+      width: 100%;
+      height: auto
+    }
+    .full-width .bannerBlock img {
+      width: 100%;
+      position: relative;
+      left: auto;
+      -webkit-transform: initial;
+      -moz-transform: initial;
+      -ms-transform: initial;
+      -o-transform: initial;
+      -khtml-transform: initial;
+      transform: initial
+    }
+    .colRight {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-flow: row wrap
+    }
+    .colRight .mini-expert {
+      -moz-flex: 100%;
+      -webkit-flex: 100%;
+      -ms-flex: 100%;
+      flex: 100%
+    }
+    .colRight .backstage-teaser {
+      -moz-flex: 60%;
+      -webkit-flex: 60%;
+      -ms-flex: 60%;
+      flex: 60%
+    }
+    .colRight .blockNews.collection {
+      -moz-flex: 35%;
+      -webkit-flex: 35%;
+      -ms-flex: 35%;
+      flex: 35%
+    }
+    .colRight .blockQuestion {
+      height: 100%
+    }
+    .colRight .blockReserve {
+      order: 1
+    }
+    .colRight .blockNews.collection + .blockReserve {
+      margin-bottom: 30px
+    }
+  }
+
+  @media only screen and (min-width: 641px) and (max-width: 767px) {
+    .carousel-block.product .title,
+    .carousel-block.product .description {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap
+    }
+    .full-width .carousel-block.product {
+      width: 100%
+    }
+    .full-width .carousel-block.product .imgLeft {
+      height: 75%
+    }
+    .full-width .carousel-block.product .imgLeft img {
+      max-width: inherit;
+      width: initial;
+      margin-left: 8%;
+      height: 100%
+    }
+    .full-width .bannerBlock {
+      margin-left: 0;
+      width: 100%;
+      height: auto
+    }
+    .full-width .bannerBlock img {
+      width: 100%;
+      position: relative;
+      left: auto;
+      -webkit-transform: initial;
+      -moz-transform: initial;
+      -ms-transform: initial;
+      -o-transform: initial;
+      -khtml-transform: initial;
+      transform: initial
+    }
+    .colRight {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-flow: row wrap
+    }
+    .colRight .mini-expert {
+      -moz-flex: 100%;
+      -webkit-flex: 100%;
+      -ms-flex: 100%;
+      flex: 100%
+    }
+    .colRight .backstage-teaser {
+      -moz-flex: 60%;
+      -webkit-flex: 60%;
+      -ms-flex: 60%;
+      flex: 60%
+    }
+    .colRight .blockNews.collection {
+      -moz-flex: 35%;
+      -webkit-flex: 35%;
+      -ms-flex: 35%;
+      flex: 35%
+    }
+    .colRight .blockQuestion {
+      height: 100%
+    }
+    .colRight .blockReserve {
+      order: 1
+    }
+    .colRight .blockNews.collection + .blockReserve {
+      margin-bottom: 30px
+    }
+  }
+
+  @media only screen and (min-width: 641px) and (max-width: 767px) {
+
+    .carousel-block.product .title,
+    .carousel-block.product .description {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap
+    }
+    .full-width .carousel-block.product {
+      width: 100%
+    }
+    .full-width .carousel-block.product .imgLeft {
+      height: 75%
+    }
+    .full-width .carousel-block.product .imgLeft img {
+      max-width: inherit;
+      width: initial;
+      margin-left: 8%;
+      height: 100%
+    }
+    .full-width .bannerBlock {
+      margin-left: 0;
+      width: 100%;
+      height: auto
+    }
+    .full-width .bannerBlock img {
+      width: 100%;
+      position: relative;
+      left: auto;
+      -webkit-transform: initial;
+      -moz-transform: initial;
+      -ms-transform: initial;
+      -o-transform: initial;
+      -khtml-transform: initial;
+      transform: initial
+    }
+    .colRight {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-flow: row wrap
+    }
+    .colRight .mini-expert {
+      -moz-flex: 100%;
+      -webkit-flex: 100%;
+      -ms-flex: 100%;
+      flex: 100%
+    }
+    .colRight .backstage-teaser {
+      -moz-flex: 60%;
+      -webkit-flex: 60%;
+      -ms-flex: 60%;
+      flex: 60%
+    }
+    .colRight .blockNews.collection {
+      -moz-flex: 35%;
+      -webkit-flex: 35%;
+      -ms-flex: 35%;
+      flex: 35%
+    }
+    .colRight .blockQuestion {
+      height: 100%
+    }
+    .colRight .blockReserve {
+      order: 1
+    }
+    .colRight .blockNews.collection + .blockReserve {
+      margin-bottom: 30px
+    }
+  }
+
+
+  @media only screen and (min-width: 641px) and (max-width: 767px) {
+
+    .carousel-block.product .title,
+    .carousel-block.product .description {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap
+    }
+    .full-width .carousel-block.product {
+      width: 100%
+    }
+    .full-width .carousel-block.product .imgLeft {
+      height: 75%
+    }
+    .full-width .carousel-block.product .imgLeft img {
+      max-width: inherit;
+      width: initial;
+      margin-left: 8%;
+      height: 100%
+    }
+    .full-width .bannerBlock {
+      margin-left: 0;
+      width: 100%;
+      height: auto
+    }
+    .full-width .bannerBlock img {
+      width: 100%;
+      position: relative;
+      left: auto;
+      -webkit-transform: initial;
+      -moz-transform: initial;
+      -ms-transform: initial;
+      -o-transform: initial;
+      -khtml-transform: initial;
+      transform: initial
+    }
+    .colRight {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-flow: row wrap
+    }
+    .colRight .mini-expert {
+      -moz-flex: 100%;
+      -webkit-flex: 100%;
+      -ms-flex: 100%;
+      flex: 100%
+    }
+    .colRight .backstage-teaser {
+      -moz-flex: 60%;
+      -webkit-flex: 60%;
+      -ms-flex: 60%;
+      flex: 60%
+    }
+    .colRight .blockNews.collection {
+      -moz-flex: 35%;
+      -webkit-flex: 35%;
+      -ms-flex: 35%;
+      flex: 35%
+    }
+    .colRight .blockQuestion {
+      height: 100%
+    }
+    .colRight .blockReserve {
+      order: 1
+    }
+    .colRight .blockNews.collection + .blockReserve {
+      margin-bottom: 30px
+    }
+  }
+
+
+  .colRight .blockNews.collection .articleBlock2 .borderBlock .border img {
+    max-height: 88px
+  }
+
+  .collection-article .colRight .blockNews.collection .articleBlock2 .borderBlock .border img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-height: unset
+  }
+
+  .gridsMain {
+    margin-top: -102px;
+    padding-top: 24px;
+    padding-right: 0;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0
+  }
+
+  .gridsMain:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+
+  .gridsMain.no-offset,
+  .gridsMain.no-offset-video {
+    margin-top: 0;
+    padding-top: 0
+  }
+
+  .gridsMain.no-offset .colRight,
+  .gridsMain.no-offset-video .colRight {
+    margin-top: 0
+  }
+
+  .colRight {
+    float: right;
+    margin-top: 120px;
+    position: relative;
+    top: 0
+  }
+
+  .colLeft {
+    left: 2.4%;
+    width: 16.3%;
+    padding-top: 220px
+  }
+
+  .colLeft .carousel-block {
+    width: 100%
+  }
+
+  .colLeft .carousel-block.product .description {
+    height: auto
+  }
+
+  .colLeft .carousel-block.product .popUp {
+    margin-top: 10px
+  }
+
+  .colLeft h3,
+  .colLeft .h3 {
+    text-align: center
+  }
+
+  .colRight {
+    right: 1.9%;
+    width: 30.5%
+  }
+
+  .colRight .blockNews {
+    margin: 0;
+    margin-top: 0;
+    width: 113%;
+    background: white;
+    padding: 12px 20px 11px 20px;
+    box-sizing: border-box;
+    border: solid 10px #d2d2d2;
+    margin-bottom: 50px
+  }
+
+  .colRight .blockNews.collection {
+    background: #000;
+    border: 0;
+    padding: 24px 20px 4px 18px
+  }
+
+  .colRight .blockNews.collection .articleBlock2 {
+    margin-bottom: 23px
+  }
+
+  .colRight .blockNews.collection .articleBlock2 .tableCell {
+    width: 16%
+  }
+
+  .colRight .blockNews.collection .articleBlock2 img {
+    max-height: initial
+  }
+
+  .colRight .blockNews.collection .h3 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px
+  }
+
+  .colRight .blockNews.collection .infoBlock {
+    vertical-align: top;
+    padding-top: 10px
+  }
+
+  .colRight .blockNews.collection .typeInfo {
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+    padding: 0 5px;
+    display: inline-block
+  }
+
+  .colRight .blockNews.collection .typeInfo:after {
+    content: "";
+    display: block;
+    background: #d4b26a;
+    height: 9px;
+    width: 72px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    z-index: -1;
+    -moz-transform: skew(-20deg, 0deg);
+    -webkit-transform: skew(-20deg, 0deg);
+    -o-transform: skew(-20deg, 0deg);
+    -ms-transform: skew(-20deg, 0deg);
+    transform: skew(-20deg, 0deg)
+  }
+
+  .colRight .blockNews.collection .title {
+    color: #fff;
+    height: auto;
+    padding-left: 7px
+  }
+
+  .colRight .blockNews .articlePreviewBlock {
+    margin-bottom: 0
+  }
+
+  .colRight .blockNews .articlePreviewBlock .articlePreview.hrl {
+    margin-top: 8px
+  }
+
+  .colRight h3,
+  .colRight .h3 {
+    margin-bottom: 20px;
+    font-size: 24px
+  }
+
+  .colRight .blockQuestion {
+    display: inline-block;
+    margin-top: 35px;
+    position: relative;
+    width: 118%;
+    left: 0;
+    right: -10%
+  }
+
+  .colRight .blockQuestion .button {
+    float: none;
+    height: 37px;
+    margin: 10px 2%;
+    width: 50%
+  }
+
+  .colRight .blockQuestion .question {
+    margin: 9%;
+    width: 82%
+  }
+
+  .colRight .blockQuestion .question .title {
+    color: rgba(0, 0, 0, 0.56);
+    padding-left: 15%
+  }
+
+  .colRight .blockQuestion .question .text {
+    font-size: 1.75rem;
+    padding-left: 15%;
+    padding-right: 4%;
+    height: auto;
+    overflow: visible
+  }
+
+  .colRight .blockQuestion .blockButton {
+    margin-left: 15%
+  }
+
+  .colRight .collection-teaser {
+    margin-bottom: 50px;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%
+  }
+
+  .colRight .collection-teaser .imageTeaser {
+    display: block;
+    width: 100%;
+    height: 347px;
+    overflow: hidden;
+    position: relative
+  }
+
+  .colRight .collection-teaser .imageTeaser img {
+    width: 100%
+  }
+
+  .colRight .collection-teaser .teaser-frame {
+    background-color: #d4b26a;
+    border: 4px solid #d4b26b;
+    bottom: 30px;
+    left: 50%;
+    line-height: .9;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -khtml-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding: 11px 5px 3px 5px;
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    font-family: 'Playfair Display', serif, serif
+  }
+
+  .colRight .collection-teaser .teaser-frame .title {
+    font-size: 30px
+  }
+
+  .colRight .collection-teaser .teaser-frame .author {
+    color: #fff;
+    font-size: 19px;
+    margin: 0;
+    font-style: normal;
+    padding: 0;
+    margin-bottom: -17px;
+    margin-top: 10px
+  }
+
+  .colRight .collection-teaser .teaser-frame .time {
+    font-size: 22px
+  }
+
+  .colRight .collection-teaser .teaser-frame:hover {
+    background-color: #fff;
+    color: #d4b26b
+  }
+
+  .colRight .collection-teaser .teaser-frame:hover .author {
+    color: #000
+  }
+
+  .colRight .backstage-teaser {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0;
+    width: 106%
+  }
+
+  .colRight .backstage-teaser .imageTeaser {
+    display: block;
+    width: 100%;
+    height: initial;
+    text-align: center;
+    position: relative;
+    max-height: 578px;
+    overflow: hidden
+  }
+
+  .colRight .backstage-teaser .imageTeaser img {
+    position: static;
+    transform: none;
+    width: 100%
+  }
+
+  .colRight .backstage-teaser .imageTeaser .teaser-button {
+    background-color: #d4b26b;
+    border: 4px solid #d4b26b;
+    text-align: center;
+    color: white;
+    position: absolute;
+    padding: 30px 15px;
+    left: 50%;
+    width: 85%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    bottom: 30px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -khtml-transform: translateX(-50%);
+    transform: translateX(-50%)
+  }
+
+  .colRight .backstage-teaser .imageTeaser .teaser-button:hover {
+    background-color: #fff;
+    color: #d4b26b
+  }
+
+  .colRight #sideBarBlock.monolit-dossier {
+    padding-top: 4%;
+    background-color: #272727;
+    position: relative;
+    float: left;
+    width: 118%
+  }
+
+  .colRight #sideBarBlock.monolit-dossier .contentCol {
+    width: 100%
+  }
+
+  .colRight #sideBarBlock.monolit-dossier .contentCol .imgWrap img {
+    max-height: 237px;
+    max-width: 348px
+  }
+
+  .colRight .blockReserve {
+    width: 98%;
+    margin-left: 10%;
+    margin-top: 35px
+  }
+
+  .colRight .blockReserve a {
+    padding: 0 5%
+  }
+
+  .blockReserve {
+    display: inline-block
+  }
+
+  .blockReserve a {
+    line-height: 1
+  }
+
+  .blockReserve a:first-child {
+    margin-bottom: 12px
+  }
+
+  .blockReserve a p {
+    line-height: inherit
+  }
+
+  .blockReserve a p:first-child {
+    float: left;
+    height: inherit
+  }
+
+  .blockReserve a p:last-of-type {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+  }
+
+  .blockReserve a.helpline {
+    cursor: default
+  }
+
+  .blockReserve a.helpline p:first-child {
+    width: 7%;
+    margin-right: 5%;
+    background: url(/assets/img/reserve-button-helpline.png) no-repeat left center;
+    background-size: contain
+  }
+
+  .blockReserve a.helpline p span {
+    white-space: nowrap
+  }
+
+  .blockReserve a.reserve p:first-child {
+    width: 9%;
+    margin-right: 3%;
+    background: url(/assets/img/reserve-button.png) no-repeat left center;
+    background-size: contain
+  }
+
+  #expertBlock.article-version {
+    margin-bottom: 50px;
+    clear: both
+  }
+
+  #expertBlock.article-version h2 {
+    padding-bottom: 22px;
+    padding-top: 40px
+  }
+
+  #expertBlock.article-version h2 .border {
+    padding-right: 60px
+  }
+
+  #expertBlock.article-version h2 .br {
+    display: block
+  }
+
+  #expertBlock.article-version .br {
+    font-size: .85em
+  }
+
+  #expertBlock.article-version .grids {
+    height: 496px;
+    display: block;
+    overflow: initial;
+    padding-top: 0
+  }
+
+  #expertBlock.article-version .grids .col {
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    display: inline-block
+  }
+
+  #expertBlock.article-version .grids .col:first-child {
+    width: 37%;
+    padding-left: 2.5%;
+    margin-bottom: 50px
+  }
+
+  #expertBlock.article-version .grids .col:last-child {
+    width: 63%
+  }
+
+  #expertBlock.article-version .imgExpert {
+    top: 0;
+    right: -25%;
+    width: 66%;
+    min-height: 100%;
+    overflow: visible
+  }
+
+  #expertBlock.article-version .imgExpert img {
+    z-index: 1;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -khtml-transform: translateX(-50%);
+    transform: translateX(-50%)
+  }
+
+  #expertBlock.article-version .titleName {
+    padding-bottom: 10px;
+    font-size: 2.05em
+  }
+
+  #expertBlock.article-version .info {
+    padding-bottom: 35px
+  }
+
+  #expertBlock.article-version .titleName,
+  #expertBlock.article-version .info {
+    max-width: 60%
+  }
+
+  #expertBlock.article-version #adviceExperts {
+    background-color: #272727;
+    padding-left: 16%;
+    height: 100%
+  }
+
+  #expertBlock.article-version #adviceExperts .adviceCarousel {
+    padding-left: 5px
+  }
+
+  #expertBlock.article-version #adviceExperts .wide78 {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+  }
+
+  #expertBlock.article-version #adviceExperts .carousel-block {
+    width: 42%;
+    height: 336px;
+    margin: 0
+  }
+
+  #expertBlock.article-version #adviceExperts .advice:last-of-type .carousel-block {
+    margin-left: 5%
+  }
+
+  .blockNews {
+    margin-top: 20px
+  }
+
+  .blockNews .articleBlock2 {
+    margin-bottom: 10px;
+    width: 100%
+  }
+
+  .blockNews .articleBlock2 img {
+    max-width: 87px
+  }
+
+  .blockNews .articleBlock2 .tableCell {
+    width: 33%
+  }
+
+  .blockNews .articleBlock2 .title {
+    font-size: 1.063rem;
+    height: 50px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 5px 0 0
+  }
+
+  .blockNews .articleBlock2 .typeInfo {
+    font-size: .688rem
+  }
+
+  .blockNews .articleBlock2 .infoBlock {
+    vertical-align: middle
+  }
+
+  .colCenter {
+    box-sizing: border-box;
+    width: 65%;
+    float: left;
+    padding: 0
+  }
+
+  .colCenter h1 {
+    font-size: 43px;
+    line-height: 47px;
+    margin: 25px 5% 35px 0;
+    text-align: left
+  }
+
+  .colCenter .content p:first-of-type:first-letter {
+    display: inline;
+    float: none;
+    padding: 0;
+    height: initial;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.333;
+    padding: 12px 0;
+    color: #464646
+  }
+
+  .colCenter .blockWhite {
+    z-index: 2;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-left: 11.5%;
+    padding-top: 6%;
+    padding-right: 0;
+    box-sizing: border-box
+  }
+
+  .colCenter .info {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: .688rem;
+    padding: 10px 10%;
+    position: relative;
+    width: 80%;
+    text-align: center;
+    line-height: .88rem
+  }
+
+  .colCenter .tagDate {
+    padding-top: 35px;
+    text-align: center
+  }
+
+  .colCenter p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.333;
+    padding: 12px 0;
+    color: #464646
+  }
+
+  .paddingCenter {
+    padding-right: 4.47%;
+    padding-left: 4.47%
+  }
+
+  .epigraph {
+    color: #1b1c20;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.953rem;
+    font-style: italic;
+    font-weight: 700;
+    margin: 56px 10% 70px 10%;
+    text-align: center;
+    width: 80%
+  }
+
+  .epigraph span {
+    display: block;
+    color: #16171b;
+    font-size: .925rem;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1.1;
+    padding-top: 10px
+  }
+
+  .previewShp .mainPadding2.paddingBottom4 {
+    padding-bottom: 0
+  }
+
+  @media screen and (max-width: 1023px) {
+    .previewShp .mainPadding2.paddingBottom4 {
+      padding-top: 4rem
+    }
+  }
+
+  .previewShp .articlePreviewBlock {
+    margin-bottom: 0
+  }
+
+  .previewShp .articlePreviewBlock .articleDescription p.articleTitle {
+    font-weight: 400
+  }
+
+  .portrait .left-portrait {
+    width: 50%;
+    float: left;
+    position: relative
+  }
+
+  .portrait .left-portrait .offset-photo {
+    width: 100%
+  }
+
+  .portrait .left-portrait .offset-photo img {
+    width: 105%;
+    display: block;
+    margin-left: -5%
+  }
+
+  .portrait .left-portrait .info {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 5%;
+    position: relative;
+    width: 80%;
+    text-align: left;
+    line-height: .88rem;
+    background-color: transparent;
+    color: rgba(27, 28, 32, 0.5);
+    font-size: .75rem
+  }
+
+  .portrait .left-portrait-bottom {
+    width: 50%;
+    float: left;
+    position: relative
+  }
+
+  @media screen and (min-width: 1024px) {
+    .portrait .left-portrait-bottom {
+      padding-bottom: 70px
+    }
+
+    .colCenter .blockSocial {
+      display: table-cell;
+      vertical-align: middle;
+      width: 70%
+    }
+    .colCenter .blockSocial--title {
+      margin-left: 5px
+    }
+    .colCenter .blockSocial .iconContainer {
+      display: inline-block;
+      margin-right: 10%
+    }
+    .colCenter .blockSocial .iconContainer .number {
+      font-family: 'Lato', sans-serif;
+      font-size: .619rem;
+      margin-top: 5px
+    }
+    .colCenter .blockSocial .fontAwesome {
+      font-size: 20px
+    }
+    .colCenter .blockSocial .fontAwesome span {
+      text-align: center
+    }
+    .colCenter p {
+      font-size: 18px;
+      line-height: 24px
+    }
+    .colCenter .firstBlock p:first-of-type:first-letter {
+      font-size: 3.632rem
+    }
+    .colCenter .article-share {
+      position: relative;
+      top: 0;
+      width: auto;
+      left: 0;
+      padding-top: 10px
+    }
+    .colCenter .article-share .h3 {
+      display: inline-block;
+      float: left;
+      padding-top: 12px
+    }
+    .colCenter .article-share .blockSocial {
+      display: inline-block;
+      float: right;
+      width: auto;
+      padding: 0 11px 15px 0
+    }
+    .colCenter .article-share .blockSocial:before {
+      max-width: 80%;
+      left: -82%
+    }
+    .colCenter .article-share .blockSocial.grids .col {
+      width: auto;
+      padding-left: 0
+    }
+    .colCenter .article-share .blockSocial.grids .col:last-child {
+      float: left;
+      text-align: left
+    }
+    .colCenter .article-share .blockSocial .iconContainer {
+      margin-right: 0;
+      padding-top: 0;
+      padding-right: 0;
+      padding-left: 7px
+    }
+    .colLeft,
+    .colRight {
+      position: relative;
+      margin-top: 0;
+      width: 100%;
+      top: 0
+    }
+    .colLeft {
+      padding-top: 0;
+      left: 0
+    }
+    .colLeft .carousel-block {
+      width: 49%;
+      float: left
+    }
+    .colLeft .bannerBlock.dispTablet {
+      width: 49%;
+      float: right
+    }
+    .hpArticles {
+      clear: both;
+      width: auto;
+      padding-bottom: 13px
+    }
+    .hpArticles h2 {
+      margin: 0 0 21px 25px
+    }
+    .hpArticles .articlePreviewBlock {
+      margin: 0 25px;
+      overflow: hidden
+    }
+    .hpArticles .articlePreview {
+      width: 50%;
+      float: left;
+      clear: none
+    }
+    .hpArticles .articlePreview:nth-child(2n+1) {
+      clear: both
+    }
+    .hpArticles .articlePreview .articleThumbnail {
+      width: 30%
+    }
+    .colRight {
+      clear: both;
+      right: 0;
+      padding: 0 17px;
+      width: auto;
+      display: block
+    }
+    .colRight--leftCol {
+      width: 49%;
+      float: left;
+      margin-bottom: 40px
+    }
+    .colRight .article-sidebar__location p span {
+      line-height: 20px;
+      margin-top: 10px
+    }
+    .colRight .article-sidebar__location__cities {
+      margin-top: 6px;
+      border-width: 12px
+    }
+    .colRight .blockNews {
+      margin-left: 0;
+      width: 49%;
+      float: right;
+      padding: 12px 20px 11px 15px;
+      margin-bottom: 40px
+    }
+    .colRight .blockNews.collection {
+      width: 49%;
+      float: left;
+      clear: both;
+      padding: 24px 18px 4px 18px
+    }
+    .colRight .blockNews.collection .articleBlock2 .tableCell {
+      width: 22%
+    }
+    .colRight .blockNews.collection .h3 {
+      letter-spacing: -0.2px
+    }
+    .colRight .blockNews.collection .typeInfo {
+      font-size: 15px
+    }
+    .colRight .blockNews.collection .title {
+      font-size: 17px;
+      margin-top: 3px;
+      line-height: 17px
+    }
+    .colRight #sideBarBlock.monolit-dossier {
+      width: 55%
+    }
+    .colRight .blockQuestion {
+      float: right;
+      margin-right: -5%;
+      margin-top: 0;
+      width: 54%
+    }
+    .colRight .blockQuestion .blockButton {
+      margin-left: 8%;
+      margin-right: 8%
+    }
+    .colRight .blockQuestion .question {
+      margin: 5%;
+      width: 90%
+    }
+    .colRight .blockQuestion .question .text {
+      font-size: 1rem
+    }
+    .colRight .blockQuestion .button {
+      border: 1px solid #000;
+      box-sizing: border-box;
+      margin: 20px 2% 5px 2%
+    }
+    .colRight .blockQuestion .button span {
+      font-size: .625rem
+    }
+    .colRight .blockQuestion .buttonBlack {
+      float: none;
+      margin-left: 8%;
+      width: 82%;
+      margin-bottom: 15px
+    }
+    .colRight .h3 {
+      font-size: 24px;
+      margin-left: 0
+    }
+    .colRight .collection-teaser {
+      width: 49%;
+      float: right;
+      margin: 0 0 20px;
+      margin-bottom: 0
+    }
+    .colRight .collection-teaser .imageTeaser {
+      max-height: 420px
+    }
+    .colRight .collection-teaser .teaser-frame {
+      width: 90%;
+      padding: 20px 5px 14px 5px
+    }
+    .colRight .collection-teaser .teaser-frame .author {
+      margin-bottom: 7px
+    }
+    .colRight .collection-teaser .teaser-frame .time {
+      line-height: 29px
+    }
+    .colRight .backstage-teaser {
+      margin: 0 0 20px 0;
+      width: 49%;
+      float: right
+    }
+    .colRight .backstage-teaser .imageTeaser {
+      height: 420px
+    }
+    .colRight .backstage-teaser .imageTeaser img {
+      width: 100%
+    }
+    .colRight .backstage-teaser .imageTeaser .teaser-button {
+      padding: 32px 15px;
+      bottom: 25px;
+      font-family: 'Playfair Display', serif;
+      font-size: 15px;
+      width: 77%
+    }
+    .colRight .blockReserve {
+      margin-left: 0;
+      width: 100%
+    }
+    .colRight .blockReserve a {
+      padding: 0 3%
+    }
+    .epigraph {
+      font-size: 1.875rem;
+      margin: 30px 10%
+    }
+    .epigraph span {
+      font-size: .875rem
+    }
+    .carousel-block.product {
+      border: 5px solid #e0e0e0;
+      margin-top: 20px;
+      padding-bottom: 18px;
+      position: relative;
+      min-height: 160px;
+      text-align: left
+    }
+    .carousel-block.product .imgLeft {
+      position: absolute;
+      top: 20px;
+      width: 100%
+    }
+    .carousel-block.product .imgLeft img {
+      max-width: 27%;
+      left: 0;
+      margin-left: 4%
+    }
+    .carousel-block.product .title {
+      margin-left: 34%;
+      margin-top: 10px;
+      padding-left: 0
+    }
+    .carousel-block.product .description {
+      font-size: .768rem;
+      height: auto;
+      margin-bottom: 8px;
+      margin-left: 34%;
+      margin-top: 5px
+    }
+    .carousel-block.product .popUp {
+      height: 44px;
+      margin-left: 34%;
+      margin-top: 10px;
+      width: 50%
+    }
+    .carousel-block.product .popUp p {
+      font-size: 1.152rem;
+      line-height: 44px
+    }
+    .carousel-block.product .popUp:hover p {
+      line-height: 40px
+    }
+    .blockNews .articleBlock2 .tableCell {
+      width: 20%
+    }
+    .blockNews .articleBlock2 .typeInfo {
+      font-size: .698rem
+    }
+    .blockNews .articleBlock2 .title {
+      font-size: .887rem
+    }
+    .portrait .left-portrait {
+      width: 100%
+    }
+    .portrait .left-portrait .offset-photo img {
+      width: 106%;
+      display: block;
+      margin-left: -3%
+    }
+    .portrait .right-portrait {
+      width: 100%
+    }
+    .portrait .right-portrait .colCenter {
+      width: 100%
+    }
+    .portrait .left-portrait-bottom {
+      width: 100%
+    }
+    .portrait .left-portrait-bottom .carousel-block.product {
+      width: 90%;
+      margin: 20px auto 0
+    }
+    .portrait .left-portrait-bottom .description {
+      margin-left: 0
+    }
+    .portrait .left-portrait-bottom .imgLeft {
+      position: relative;
+      top: 0
+    }
+    .portrait .left-portrait-bottom .imgLeft img {
+      max-width: 80%;
+      left: auto;
+      margin-left: 0
+    }
+    .portrait .left-portrait-bottom .bannerBlock {
+      width: 90%;
+      margin: 20px auto
+    }
+    .portrait .left-portrait-bottom .blockReserve {
+      width: 90%;
+      margin: 20px 5% 0
+    }
+    .portrait .left-portrait-bottom .blockReserve a {
+      width: 43%
+    }
+    .portrait.colRight .blockNews {
+      width: 100%
+    }
+    .portrait .article-share .grids .col,
+    .portrait .article-share .blockSocial.grids .col:last-child {
+      float: left
+    }
+    .article-dossier .article-dossier-wrap .contentCol {
+      width: 50%
+    }
+    #expertBlock.article-version {
+      margin-bottom: 45px
+    }
+    #expertBlock.article-version .grids {
+      height: 290px
+    }
+    #expertBlock.article-version .grids .col:first-child {
+      padding-top: 6%
+    }
+    #expertBlock.article-version #adviceExperts {
+      padding-left: 16%
+    }
+    #expertBlock.article-version #adviceExperts .carousel-block {
+      height: 197px;
+      width: 43%
+    }
+    #expertBlock.article-version #adviceExperts .carousel-block .title {
+      font-size: 13.5px;
+      height: auto;
+      bottom: 47px
+    }
+    #expertBlock.article-version h2 {
+      font-size: 25px;
+      padding-bottom: 15px;
+      padding-top: 25px
+    }
+    #expertBlock.article-version .boxExper .border {
+      padding-right: 0;
+      width: auto;
+      padding-bottom: 18px
+    }
+    #expertBlock.article-version .boxExper .br {
+      font-size: 21px;
+      padding-top: 3px
+    }
+    #expertBlock.article-version .titleName {
+      padding-bottom: 5px
+    }
+    #expertBlock.article-version .info {
+      font-size: 10px;
+      padding-bottom: 20px
+    }
+    #expertBlock.article-version .buttonBlack {
+      font-size: 8px;
+      height: 25px;
+      line-height: 25px;
+      width: 90px
+    }
+    .mini-expert {
+      height: 135px;
+      margin-bottom: 48px;
+      margin-top: 30px
+    }
+    .mini-expert .pre-title {
+      margin-top: 5px;
+      font-size: 18px
+    }
+    .mini-expert .title-name {
+      float: left;
+      font-size: 27px;
+      clear: both;
+      padding-right: 5px
+    }
+    .mini-expert .button-mini {
+      font-size: 14px
+    }
+    .blockReserve a {
+      width: 43%;
+      float: left
+    }
+    .blockReserve a:first-child {
+      margin-right: 2%;
+      margin-bottom: 0
+    }
+    .blockReserve .buttonRed {
+      font-size: 1.1rem
+    }
+  }
+
+  .portrait .left-portrait-bottom .carousel-block.product {
+    width: 95%;
+    margin-left: 5%
+  }
+
+  .portrait .left-portrait-bottom .carousel-block.product .title {
+    line-height: 1.3;
+    width: 68%;
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+  }
+
+  .portrait .left-portrait-bottom .carousel-block.product .imgLeft {
+    width: 26%;
+    margin-left: 0;
+    float: left;
+    min-height: 113px
+  }
+
+  .portrait .left-portrait-bottom .carousel-block.product .description {
+    float: right;
+    width: 68%;
+    text-align: left;
+    margin-top: 16px;
+    height: auto;
+    line-height: 15px
+  }
+
+  .portrait .left-portrait-bottom .carousel-block.product .popUp {
+    float: left;
+    width: 20%;
+    margin-left: 6%;
+    margin-top: 15px
+  }
+
+  .portrait .left-portrait-bottom .bannerBlock {
+    width: 95%;
+    margin-left: 5%
+  }
+
+  .portrait .left-portrait-bottom .blockReserve {
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 20px
+  }
+
+  .portrait .left-portrait-bottom .blockReserve a {
+    width: 51%;
+    padding: 0 3%
+  }
+
+  .portrait .right-portrait {
+    line-height: 20px;
+    width: 50%;
+    float: right;
+    position: relative
+  }
+
+  .portrait .right-portrait .colCenter {
+    width: 90%;
+    padding: 0
+  }
+
+  .portrait.colRight {
+    float: right;
+    width: 100%;
+    top: auto;
+    right: auto
+  }
+
+  .portrait.colRight .blockNews {
+    width: 100%;
+    margin: 0
+  }
+
+  .portrait.colRight .blockNews .articleBlock2 {
+    width: 32%;
+    margin-right: 1%;
+    float: left
+  }
+
+  .portrait.colRight .blockNews .articleBlock2 .blockSocial {
+    display: none
+  }
+
+  .portrait.colRight .blockNews .articleBlock2 .tableCell {
+    width: 16%
+  }
+
+  .portrait.colRight .blockNews .articleBlock2 .tableCell img {
+    max-width: 77px
+  }
+
+  .portrait.colRight .blockNews .h2 {
+    margin-bottom: 35px
+  }
+
+  .portrait .article-share .hide-desc {
+    display: none
+  }
+
+  .portrait .article-share .grids .col,
+  .portrait .article-share .blockSocial.grids .col:last-child {
+    float: none;
+    text-align: left
+  }
+
+  .portrait .article-share .blockSocial.grids {
+    padding-top: 0
+  }
+
+  .article-dossier {
+    background-color: #272727;
+    position: relative
+  }
+
+  .article-dossier .article-dossier-wrap {
+    margin: 45px auto 80px;
+    width: 88%
+  }
+
+  .article-dossier .article-dossier-wrap .contentCol {
+    float: left
+  }
+
+  .article-dossier .article-dossier-wrap .contentCol:nth-of-type(3n+2) {
+    margin: 0 2%
+  }
+
+  .article-dossier h2 {
+    color: #fff;
+    padding-left: 10px;
+    margin-bottom: 50px
+  }
+
+  .mini-expert {
+    font-family: 'Playfair Display', serif;
+    height: 150px;
+    position: relative;
+    margin-bottom: 45px;
+    margin-top: 40px
+  }
+
+  .mini-expert .mini-expert-title {
+    position: absolute;
+    width: 57%;
+    margin-left: 43%;
+    bottom: 35%
+  }
+
+  .mini-expert .pre-title {
+    font-size: 20px
+  }
+
+  .mini-expert .title-name {
+    font-size: 30px
+  }
+
+  .mini-expert .img-expert {
+    z-index: 1;
+    position: absolute;
+    width: 44%;
+    top: -20%;
+    height: 120%;
+    overflow: hidden
+  }
+
+  .mini-expert .img-expert img {
+    width: 100%;
+    display: block;
+    margin-left: -5px
+  }
+
+  .mini-expert .button-mini {
+    display: block;
+    width: 100%;
+    position: absolute;
+    background-color: #d4b26b;
+    color: white;
+    padding: 11px 9px 11px 44%;
+    box-sizing: border-box;
+    bottom: 0;
+    text-align: center;
+    font-size: 16px
+  }
+
+  #sideBarBlock {
+    background-color: #272727
+  }
+
+  #sideBarBlock .article-dossier-wrap .contentCol {
+    width: 32%
+  }
+
+
+  .colCenter .article-share {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0
+  }
+
+  .articleLocation.bannerBar .bannerArea {
+    padding-top: 50px
+  }
+
+  .articleLocation.bannerBar .bannerArea .map {
+    width: 48.8%
+  }
+
+  .articleLocation.bannerBar .bannerArea .map .buttonGold {
+    width: 56%
+  }
+
+  &:before {
+    position: absolute;
+    content: '';
+    left: -9%;
+    right: 0;
+    top: 38px;
+    border-top: 2px solid #171715
+  }
+
+  .blockSocial {
+    float: right;
+    margin-top: 30px;
+    position: relative
+  }
+
+  .blockSocial--title {
+    font-family: Lato;
+    font-size: 12px;
+    color: #989898;
+    margin-left: 10px
+  }
+
+  .blockSocial--wrap {
+    position: relative;
+    background: white;
+    padding-left: 7px
+  }
+
+  .blockSocial .iconContainer {
+    padding: 0 9px;
+    display: inline-block
+  }
+
+  .blockSocial .fontAwesome {
+    display: flex;
+    align-items: center
+  }
+
+  .blockSocial .fontAwesome:hover .blockSocial--title {
+    color: #171715
+  }
+
+  .blockSocial .fa {
+    cursor: pointer;
+    font-size: 19px;
+    color: #989898;
+    display: flex;
+    align-items: center
+  }
+
+  .blockSocial .fa:hover {
+    color: #171715
+  }
+
+
+  @media screen and (max-width: 640px) {
+    .colRight .blockNews.collection {
+      width: auto;
+      padding: 29px 16px 7px 16px;
+      margin: 37px -17px 14px -17px
+    }
+    .colRight .blockNews.collection .articleBlock2 .tableCell {
+      width: 24%
+    }
+    .colRight .backstage-teaser {
+      width: 100%;
+      padding: 0;
+      margin-top: 20px;
+      margin-bottom: 40px
+    }
+    .colRight .backstage-teaser .imageTeaser {
+      height: 398px
+    }
+    .colRight .collection-teaser {
+      width: 100%
+    }
+    .colRight .collection-teaser .imageTeaser {
+      height: 390px
+    }
+    .colRight .collection-teaser .teaser-frame {
+      bottom: 7%
+    }
+    #mainblock.collection-article .wide78 .colCenter {
+      width: 100%;
+      padding: 0
+    }
+    .colRight .articlePreview .articleDescription p.articleTitle {
+      font-size: 17px
+    }
+    .colRight .articlePreview .articleDescription {
+      width: 70%
+    }
+    #expertBlock.article-version .grids {
+      height: unset
+    }
+    #expertBlock.article-version .grids .col:first-child {
+      width: 114%;
+      margin-left: -7%;
+      margin-bottom: 0;
+      margin-top: 65px
+    }
+    #expertBlock.article-version .imgExpert {
+      right: 0;
+      width: 55%
+    }
+    #expertBlock.article-version .imgExpert img {
+      height: 84%;
+      left: 53%;
+      bottom: 11%
+    }
+    #expertBlock.article-version #adviceExperts .carousel-block {
+      height: 153px;
+      width: 45%
+    }
+    #expertBlock.article-version #adviceExperts .carousel-block .title {
+      font-size: 14.5px;
+      bottom: 23px
+    }
+    #expertBlock.article-version .grids .col:last-child {
+      width: 104%
+    }
+     .hpNewsBlock #newsBlockMain .articleBlock2 .title {
+      font-size: 17px;
+      line-height: 20px
+    }
+     #shopBlock {
+      padding: 0 4.5%
+    }
+     #shopBlock > .mainPadding {
+      padding-left: 0
+    }
+     #shopBlock h2 {
+      font-size: 30px;
+      letter-spacing: 0
+    }
+     #shopBlock .carousel {
+      margin: 31px auto 44px auto
+    }
+    .articleLocation.bannerBar .bannerBlock {
+      padding-bottom: 0
+    }
+    .articleLocation.bannerBar .bannerArea {
+      display: block;
+      padding: 0;
+      padding-top: 40px
+    }
+    .articleLocation.bannerBar .bannerArea .map {
+      width: 100%
+    }
+    .articleLocation.bannerBar .bannerArea .map .buttonGold {
+      top: 71%;
+      width: 93%
+    }
+    .articleLocation.bannerBar .bannerArea .map .marker {
+      bottom: 39%;
+      width: 20%;
+      left: 40%
+    }
+    .colRight .h3 {
+      font-size: 24px
+    }
+    .colRight .blockNews {
+      width: 100%;
+      margin-bottom: 52px
+    }
+    .hpArticles .articlePreview .articleThumbnail {
+      width: 25%
+    }
+    #expertBlock.article-version {
+      margin-top: 70px;
+      margin-bottom: 0
+    }
+    #expertBlock.article-version h2 {
+      font-size: 25px;
+      padding-bottom: 24px
+    }
+    #expertBlock.article-version .boxExper {
+      padding-left: 10.25%
+    }
+    #expertBlock.article-version .boxExper .border {
+      width: 54%
+    }
+    #expertBlock.article-version .boxExper .br {
+      font-size: 15px;
+      padding-top: 0
+    }
+    #expertBlock.article-version .titleName {
+      font-size: 19px;
+      padding-bottom: 8px
+    }
+    #expertBlock.article-version .info {
+      font-size: 13px;
+      padding-bottom: 33px
+    }
+    #expertBlock.article-version .buttonBlack {
+      font-size: 17px;
+      height: 43px;
+      line-height: 40px;
+      width: 80px
+    }
+    #expertBlock.article-version .imgExpert {
+      width: 55%
+    }
+    #expertBlock.article-version .imgExpert img {
+      height: 76%;
+      left: 56%
+    }
+    .colRight--leftCol {
+      width: 100%;
+      float: none
+    }
+    .mini-expert {
+      margin: auto;
+      margin-bottom: 25px;
+      margin-top: 50px;
+      width: auto
+    }
+    .mini-expert-title {
+      top: auto
+    }
+    .mini-expert .button-mini {
+      left: auto;
+      right: auto;
+      z-index: 0
+    }
+    .mini-expert .img-expert {
+      right: auto
+    }
+    .mini-expert .title-name {
+      max-width: 150px
+    }
+    .blockSocial--title {
+      display: none
+    }
+    .blockSocial .fa {
+      font-size: 27px
+    }
+    .colCenter .article-share .blockSocial .iconContainer {
+      padding-left: 25px
+    }
+    .colCenter .article-share .blockSocial:before {
+      max-width: 138px;
+      left: -135px;
+      top: 14px
+    }
+    .blockSocial--wrap {
+      padding-left: 0
+    }
+    .articleHpNewsBlock.hpNewsBlock #newsBlockMain .mainPadding > h2 {
+      font-size: 30px
+    }
+    .colCenter .article-share .blockSocial {
+      padding-right: 0;
+      margin-top: 20px
+    }
+     .hpNewsBlock #newsBlockMain .articleBlock2 .title {
+      font-size: 17px;
+      line-height: 20px
+    }
+    .articleHpNewsBlock.hpNewsBlock #newsBlockMain {
+      padding-top: 12px;
+      padding-bottom: 0;
+      margin-bottom: 0
+    }
+    .hpNewsBlock #newsBlockMain .hpGrid {
+      padding-top: 20px;
+      padding-bottom: 0
+    }
+    .colCenter .table {
+      padding: 0
+    }
+    .hpNewsBlock #newsBlockMain .articleBlock2 .tableCell {
+      width: 26.3%
+    }
+    .articleHpNewsBlock.hpNewsBlock #newsBlockMain .articleBlock2 .infoBlock {
+      padding-left: 10px
+    }
+    .hpNewsBlock #newsBlockMain .moreNews {
+      display: none
+    }
+    .colRight .article-sidebar__location {
+      width: 100%;
+      padding-top: 16px
+    }
+    .colRight .article-sidebar__location p span {
+      font-size: 17px;
+      line-height: 22px
+    }
+    .article-sidebar__location__toggle {
+      margin-top: 22px;
+      margin-bottom: 44px
+    }
+    .article-sidebar__location__locator #store-locator .article-sidebar__location__locator__img {
+      display: block
+    }
+    .article-sidebar__location #store-locator:before {
+      width: 20%;
+      top: 23%;
+      left: 40%
+    }
+    .article-sidebar__location__locator #store-locator .search-field {
+      position: absolute;
+      width: 94%;
+      bottom: 40px
+    }
+    .article-sidebar__location__locator #store-locator .search-field #search-form #submit {
+      color: #000
+    }
+     .colRight .blockNews {
+      margin-bottom: 50px
+    }
+    #mainblock {
+      margin-bottom: 40px
+    }
+    .hpArticles {
+      margin: 0 -17px;
+      padding-bottom: 30px
+    }
+    .hpArticles h2 {
+      font-size: 30px;
+      margin: 0 0 25px 18px;
+      padding-top: 31px
+    }
+    .hpArticles .articlePreviewBlock {
+      margin: 0 18px
+    }
+    .hpArticles .articlePreview {
+      width: 100%
+    }
+    .hpBannerBar.bannerBar {
+      margin-bottom: 0
+    }
+    .hpBannerBar.bannerBar .bannerArea .map {
+      display: block;
+      margin-bottom: 25px
+    }
+    .articleLocation.bannerBar .bannerBlock {
+      padding: 0;
+      margin-top: 0
+    }
+    .wide80 .carusel {
+      padding: 0
+    }
+    #mainblock > .wide78 {
+      width: 100%;
+      padding: 0
+    }
+    .colCenter .blockWhite {
+      padding: 0;
+      width: 90%;
+      margin: auto;
+      padding-top: 30px
+    }
+    .tag {
+      text-align: center
+    }
+    .colCenter h1 {
+      text-align: center;
+      font-size: 30px;
+      line-height: 33px;
+      margin-right: 0
+    }
+
+     .colRight .h3 {
+      font-size: 2.25rem
+    }
+     .colRight .collection-teaser .imageTeaser .teaser-frame {
+      width: 80%
+    }
+     .colRight .backstage-teaser .imageTeaser img {
+      top: 120%
+    }
+     .epigraph {
+      font-size: 1.6rem
+    }
+     .colCenter h1 {
+      font-size: 2.4rem;
+      margin-bottom: 20px
+    }
+     .colCenter .article-share .h3 {
+      font-size: 1.2rem
+    }
+     .colCenter .article-share .blockSocial .fontAwesome {
+      font-size: 30px
+    }
+  }
+
+  @media screen and (max-width:395px) {
+     .colRight .h3 {
+      font-size: 1.7rem
+    }
+     .colRight .backstage-teaser .imageTeaser img {
+      top: 90%
+    }
+     .author {
+      margin-top: -30px
+    }
+     .epigraph {
+      font-size: 1.25rem;
+      margin: 20px 10%
+    }
+     .colCenter h1 {
+      font-size: 1.6rem
+    }
+     .colCenter .article-share .h3 {
+      font-size: 1rem
+    }
+     .colCenter .article-share .blockSocial .fontAwesome {
+      font-size: 20px
+    }
+     .colCenter .article-share .blockSocial.grids .iconContainer {
+      padding-top: 12px;
+      padding-bottom: 0
+    }
+     .colCenter .info {
+      padding-top: 3px;
+      padding-bottom: 3px
+    }
+  }
+
+  .article-share:before {
+    position: absolute;
+    content: '';
+    left: -9%;
+    right: 0;
+    top: 38px;
+    border-top: 2px solid #171715;
+  }
+
+
+   .article-share .blockSocial--wrap {
+    position: relative;
+    background: white;
+    padding-left: 7px
+  }
+
+   .article-share .blockSocial .iconContainer {
+    padding: 0 9px;
+    display: inline-block
+  }
+
+   .article-share .blockSocial .fontAwesome {
+    display: flex;
+    align-items: center
+  }
+
+   .article-share .blockSocial .fontAwesome:hover .blockSocial--title {
+    color: #171715
+  }
+
+   .article-share .blockSocial .fa {
+    cursor: pointer;
+    font-size: 19px;
+    color: #989898;
+    display: flex;
+    align-items: center
+  }
+
+   .article-share .blockSocial .fa:hover {
+    color: #171715
+  }
+  .article-share .blockSocial {
+    float: right;
+    margin-top: 30px;
+    position: relative;
+  }
+}
+
